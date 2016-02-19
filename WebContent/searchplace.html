@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>Pinterest-like layouts with freewall</title>
+		<meta content="text/html; charset=utf-8" http-equiv="content-type">
+		<meta name="description" content="Freewall demo for pinterest-like layout" />
+		<meta name="keywords" content="javascript, dynamic, grid, layout, jquery plugin, pinterest like layouts" />
+<meta name="viewport" content="width=device-width, initial-scale=0.41, maximum-scale=1" />	
+       <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+
+
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/pinterest-style.css" />
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+
+		<script type="text/javascript" src="js/freewall.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+        <script type="text/javascript" src="js/search.js"></script>
+<!--<script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <!--<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#div2").load("pinterest-layout.html");
+    });
+});
+</script>-->
+        <style>
+        #googleMap{
+        width:50%;
+         height:50%;
+        }
+            #sinput{
+             width:100%;
+         }
+        </style>
+       
+        </head>
+	<body>
+        <div class="container">
+            <div id="googleMap" class="container">
+        
+        </div>
+        <div class="col-xs-4">
+        <input type="text" class="form-control" placeholder="Search place" id="sinput">
+        <div id="list"></div>
+        </div>
+        </div>
+    </body>
+</html>
